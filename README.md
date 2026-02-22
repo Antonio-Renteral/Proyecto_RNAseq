@@ -28,6 +28,7 @@ The analysis focuses on:
 
 ## Repository Structure
 
+```
 Proyecto_RNAseq/
 │
 ├── code/ # Analysis scripts
@@ -35,6 +36,7 @@ Proyecto_RNAseq/
 ├── raw-data/ # Raw input files
 ├── plots/ # Generated figures
 └── README.md
+```
 
 ## How to Reproduce
 
