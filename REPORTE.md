@@ -128,4 +128,10 @@ The hierarchical clustering dendrogram further confirms that genotype is the dom
 
 ## Conclusions
 
-The analysis successfully identified differentially expressed genes in a statistically robust manner. The structured workflow ensures that the results obtained are reliable and biologically interpretable.
+This study presents a structured and reproducible differential expression analysis of RNA-seq data from a murine model. By applying an appropriate statistical framework for count data and implementing careful preprocessing steps — including gene filtering, normalization, and controlled experimental design — reliable transcriptional differences between genotypes were identified.
+
+The consistency observed across multiple visualization strategies (PCA, MA plot, volcano plot, and heatmap) supports the robustness of the results. In particular, the strong separation in PCA and the clear clustering pattern in the heatmap indicate that genotype represents the dominant source of transcriptional variation in Act_CD4 cells.
+
+The identification of both upregulated and downregulated genes suggests that the experimental condition induces coordinated regulatory changes rather than isolated transcriptional effects. These findings provide a foundation for further biological interpretation and downstream functional analyses aimed at understanding the molecular mechanisms associated with Bap1 status.
+
+Overall, the modular workflow implemented in this project ensures transparency, reproducibility, and flexibility, allowing the analysis to be extended or adapted to additional datasets or biological questions in future studies.
